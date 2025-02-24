@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+/* ---------------------footer -----------*/
+.footer-wrap {
+    gap: 163px;
+    justify-content: center;
+    align-items: center;
+    height: 243px;
+    background-color: #3576C6;
+
+}
+
+.footer-text h4 {
+    font-family: "Inter", serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #26C7EA;
+margin-bottom: 40px;
+}
+.footer-text p{
+    font-family: "Inter", serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFDFD;
+    margin-bottom: 10px;
+}
+.footer-icon {
+    gap: 25px;
+    margin-top: 15px;
+}
+.footer-contact h4{
+    font-family: "Inter", serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #26C7EA;
+    margin-bottom: 10px;
+
+}
+.footer-contact-icon {
+    gap: 15px;
+    align-items: center;
+    height: 38px;
+    
+}
+.footer-contact-icon p{
+    font-family: "Inter", serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFDFD;
+    margin-bottom: 10px;
+
+}
+.footer-contact>p{
+    font-family: "Inter", serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #26C7EA;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 34px;
+}
